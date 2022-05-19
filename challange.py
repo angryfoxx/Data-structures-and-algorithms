@@ -183,3 +183,13 @@ def catalanNumbers(n):
 for i in range(10):
     print(catalanNumbers(i))
 """ # catalan numbers
+"""def dynamicFibo(n):
+    fiboList, i = [0, 1], 2
+
+    while len(fiboList) < n:
+        fiboList.append(fiboList[i - 2] + fiboList[i - 1])
+        i +=1
+
+    return fiboList
+
+print(dynamicFibo(10))""" # fibonacci with dynamic
